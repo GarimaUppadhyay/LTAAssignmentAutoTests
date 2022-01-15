@@ -1,5 +1,5 @@
 # LTAAssignmentAutoTests
-##Introduction:
+## Introduction:
 The current Automated Solution covers two projects (UI and API)
  1. BuggyCarsRatingAPIAutoTests - API Project
  2. BuggyCarsRatingUIAutoTests  - UI Project
@@ -15,11 +15,12 @@ The current Automated Solution covers two projects (UI and API)
  Git Hub
  
  ## Cloning and Running The Tests
-- Clone the repo named “LTAAssignmentAutoTests (https://github.com/GarimaUppadhyay/LTAAssignmentAutoTests) ” in VS2019 or using Git command line
+- Clone the repo named â€œLTAAssignmentAutoTests (https://github.com/GarimaUppadhyay/LTAAssignmentAutoTests) â€ in VS2019 or using Git command line
 - Open the solution and build the solution
 - Navigate to View-> Test Explorer, Test Explorer will be open on the left panel
 - Right click the top feature project (either UI or API) and click run (or select all the tests and click run)
-
+- Now you can view the test results as shown below
+![Test Results](https://github.com/GarimaUppadhyay/LTAAssignmentAutoTests/blob/main/TestExecution.png?raw=true)
 
  ## Test Coverage:
  ### Covers Below scenarios for UI 
@@ -41,7 +42,9 @@ The current Automated Solution covers two projects (UI and API)
  The UI Automation framework is flexibly designed and easy to understand:
  - Based on POM
  Comparises of below folder structure:
-
+ 
+ ![UI Solution](https://github.com/GarimaUppadhyay/LTAAssignmentAutoTests/blob/main/FolderStructure_UIAutoProject.png?raw=true)
+ 
  - Application Feature: This contains list application features, contains test sceanrios written in spec flow.
  - Helper: This is a helper class for common utilities and config helpers for reusable generic methods for screenshots and config properties etc.
  - Objects: This folder contains page specific objects/locators based on IDs, classes, XPaths etc.
@@ -53,6 +56,8 @@ The current Automated Solution covers two projects (UI and API)
 
 ## The API Automation framework is also based on POM
  Comparises of below folder structure:
+ 
+![API Solution](https://github.com/GarimaUppadhyay/LTAAssignmentAutoTests/blob/main/FolderStructure_APIProject.png?raw=true)
 
    - Helper: This is a helper class for common utilities, API Helper( for RestClient initialization and common method for Executing Request/Response) and config helpers for reusable generic methods for screenshots and config properties etc.
    - Model: This contains list of classes with actual endpoint hierarchy, contains methods for generating the request body, Validating request payload by capturing response(s).
